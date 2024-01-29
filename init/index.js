@@ -7,7 +7,7 @@ const Listing = require("../models/listing.js")
 const MONGO_URL = "mongodb://127.0.0.1:27017/Havenhub";
 
 main().then(() => {
-  console.log("Connected to Haven")
+  console.log("Connected to Heaven")
 }).catch(err => {
   console.log(err)
 })
